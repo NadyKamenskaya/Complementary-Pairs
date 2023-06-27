@@ -1,0 +1,23 @@
+{
+  "name": "complementary-pairs",
+  "version": "1.0.0",
+  "description": "A form for the specification of the nucleotide sequence in a fragment of one of the two DNA strands.",
+  "main": "./src/index.js",
+  "scripts": {
+    "build": "npm run build --prefix frontend",
+    "start": "start-server -s ./frontend/build",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "npm ci --prefix frontend"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NadyKamenskaya/Complementary-Pairs.git"
+  },
+  "author": "Nady Kamenskaya",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NadyKamenskaya/Complementary-Pairs/issues"
+  },
+  "type": "module",
+  "homepage": "https://github.com/NadyKamenskaya/Complementary-Pairs#readme"
+}
