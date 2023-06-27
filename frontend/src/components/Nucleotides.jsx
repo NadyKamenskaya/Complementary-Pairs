@@ -28,9 +28,9 @@ const Nucleotides = () => {
     <Container fluid className="p-4">
       <Row>
         <Col md="10" className="mx-auto text-white">
-          <Card className="border-0 bg-dark">
+          <Card className="border-0">
             <span><i>{`Темпепарута плавления: ${temp}`}</i></span>
-            <Card.Body className="border-0 bg-dark p-0 d-flex flex-wrap">
+            <Card.Body className="border-0 p-0 d-flex flex-wrap">
               <ListGroup
                 as="ul"
                 horizontal
@@ -42,7 +42,7 @@ const Nucleotides = () => {
                   <ListGroup.Item
                     as="li"
                     key={id}
-                    className="align-items-center border-0 bg-dark"
+                    className="align-items-center border-0"
                   >
                     {nucl}
                     <br />
